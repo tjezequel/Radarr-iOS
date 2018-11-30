@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E922F30021B1DB2C00588BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922F2FF21B1DB2C00588BA4 /* AppDelegate.swift */; };
+		E922F30221B1DB2C00588BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922F30121B1DB2C00588BA4 /* ViewController.swift */; };
+		E922F30521B1DB2C00588BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E922F30321B1DB2C00588BA4 /* Main.storyboard */; };
+		E922F30721B1DB3000588BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E922F30621B1DB3000588BA4 /* Assets.xcassets */; };
+		E922F30A21B1DB3000588BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E922F30821B1DB3000588BA4 /* LaunchScreen.storyboard */; };
+		E922F31521B1DB3100588BA4 /* Unraid_NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922F31421B1DB3100588BA4 /* Unraid_NotifierTests.swift */; };
+		E922F32021B1DB3100588BA4 /* Unraid_NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922F31F21B1DB3100588BA4 /* Unraid_NotifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E922F31121B1DB3000588BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E922F2F421B1DB2B00588BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E922F2FB21B1DB2C00588BA4;
+			remoteInfo = "Unraid-Notifier";
+		};
+		E922F31C21B1DB3100588BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E922F2F421B1DB2B00588BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E922F2FB21B1DB2C00588BA4;
+			remoteInfo = "Unraid-Notifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E922F2FC21B1DB2C00588BA4 /* Unraid-Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unraid-Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E922F2FF21B1DB2C00588BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E922F30121B1DB2C00588BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E922F30421B1DB2C00588BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E922F30621B1DB3000588BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E922F30921B1DB3000588BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E922F30B21B1DB3000588BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E922F31021B1DB3000588BA4 /* Unraid-NotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unraid-NotifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E922F31421B1DB3100588BA4 /* Unraid_NotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unraid_NotifierTests.swift; sourceTree = "<group>"; };
+		E922F31621B1DB3100588BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E922F31B21B1DB3100588BA4 /* Unraid-NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unraid-NotifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E922F31F21B1DB3100588BA4 /* Unraid_NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unraid_NotifierUITests.swift; sourceTree = "<group>"; };
+		E922F32121B1DB3100588BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E922F2F921B1DB2C00588BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E922F30D21B1DB3000588BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E922F31821B1DB3100588BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E922F2F321B1DB2B00588BA4 = {
+			isa = PBXGroup;
+			children = (
+				E922F2FE21B1DB2C00588BA4 /* Unraid-Notifier */,
+				E922F31321B1DB3100588BA4 /* Unraid-NotifierTests */,
+				E922F31E21B1DB3100588BA4 /* Unraid-NotifierUITests */,
+				E922F2FD21B1DB2C00588BA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E922F2FD21B1DB2C00588BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E922F2FC21B1DB2C00588BA4 /* Unraid-Notifier.app */,
+				E922F31021B1DB3000588BA4 /* Unraid-NotifierTests.xctest */,
+				E922F31B21B1DB3100588BA4 /* Unraid-NotifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E922F2FE21B1DB2C00588BA4 /* Unraid-Notifier */ = {
+			isa = PBXGroup;
+			children = (
+				E922F2FF21B1DB2C00588BA4 /* AppDelegate.swift */,
+				E922F30121B1DB2C00588BA4 /* ViewController.swift */,
+				E922F30321B1DB2C00588BA4 /* Main.storyboard */,
+				E922F30621B1DB3000588BA4 /* Assets.xcassets */,
+				E922F30821B1DB3000588BA4 /* LaunchScreen.storyboard */,
+				E922F30B21B1DB3000588BA4 /* Info.plist */,
+			);
+			path = "Unraid-Notifier";
+			sourceTree = "<group>";
+		};
+		E922F31321B1DB3100588BA4 /* Unraid-NotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				E922F31421B1DB3100588BA4 /* Unraid_NotifierTests.swift */,
+				E922F31621B1DB3100588BA4 /* Info.plist */,
+			);
+			path = "Unraid-NotifierTests";
+			sourceTree = "<group>";
+		};
+		E922F31E21B1DB3100588BA4 /* Unraid-NotifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E922F31F21B1DB3100588BA4 /* Unraid_NotifierUITests.swift */,
+				E922F32121B1DB3100588BA4 /* Info.plist */,
+			);
+			path = "Unraid-NotifierUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E922F2FB21B1DB2C00588BA4 /* Unraid-Notifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E922F32421B1DB3100588BA4 /* Build configuration list for PBXNativeTarget "Unraid-Notifier" */;
+			buildPhases = (
+				E922F2F821B1DB2C00588BA4 /* Sources */,
+				E922F2F921B1DB2C00588BA4 /* Frameworks */,
+				E922F2FA21B1DB2C00588BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unraid-Notifier";
+			productName = "Unraid-Notifier";
+			productReference = E922F2FC21B1DB2C00588BA4 /* Unraid-Notifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E922F30F21B1DB3000588BA4 /* Unraid-NotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E922F32721B1DB3100588BA4 /* Build configuration list for PBXNativeTarget "Unraid-NotifierTests" */;
+			buildPhases = (
+				E922F30C21B1DB3000588BA4 /* Sources */,
+				E922F30D21B1DB3000588BA4 /* Frameworks */,
+				E922F30E21B1DB3000588BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E922F31221B1DB3000588BA4 /* PBXTargetDependency */,
+			);
+			name = "Unraid-NotifierTests";
+			productName = "Unraid-NotifierTests";
+			productReference = E922F31021B1DB3000588BA4 /* Unraid-NotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E922F31A21B1DB3100588BA4 /* Unraid-NotifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E922F32A21B1DB3100588BA4 /* Build configuration list for PBXNativeTarget "Unraid-NotifierUITests" */;
+			buildPhases = (
+				E922F31721B1DB3100588BA4 /* Sources */,
+				E922F31821B1DB3100588BA4 /* Frameworks */,
+				E922F31921B1DB3100588BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E922F31D21B1DB3100588BA4 /* PBXTargetDependency */,
+			);
+			name = "Unraid-NotifierUITests";
+			productName = "Unraid-NotifierUITests";
+			productReference = E922F31B21B1DB3100588BA4 /* Unraid-NotifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E922F2F421B1DB2B00588BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Thomas;
+				TargetAttributes = {
+					E922F2FB21B1DB2C00588BA4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E922F30F21B1DB3000588BA4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E922F2FB21B1DB2C00588BA4;
+					};
+					E922F31A21B1DB3100588BA4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E922F2FB21B1DB2C00588BA4;
+					};
+				};
+			};
+			buildConfigurationList = E922F2F721B1DB2B00588BA4 /* Build configuration list for PBXProject "Unraid-Notifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E922F2F321B1DB2B00588BA4;
+			productRefGroup = E922F2FD21B1DB2C00588BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E922F2FB21B1DB2C00588BA4 /* Unraid-Notifier */,
+				E922F30F21B1DB3000588BA4 /* Unraid-NotifierTests */,
+				E922F31A21B1DB3100588BA4 /* Unraid-NotifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E922F2FA21B1DB2C00588BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E922F30A21B1DB3000588BA4 /* LaunchScreen.storyboard in Resources */,
+				E922F30721B1DB3000588BA4 /* Assets.xcassets in Resources */,
+				E922F30521B1DB2C00588BA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E922F30E21B1DB3000588BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E922F31921B1DB3100588BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E922F2F821B1DB2C00588BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E922F30221B1DB2C00588BA4 /* ViewController.swift in Sources */,
+				E922F30021B1DB2C00588BA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E922F30C21B1DB3000588BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E922F31521B1DB3100588BA4 /* Unraid_NotifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E922F31721B1DB3100588BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E922F32021B1DB3100588BA4 /* Unraid_NotifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E922F31221B1DB3000588BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E922F2FB21B1DB2C00588BA4 /* Unraid-Notifier */;
+			targetProxy = E922F31121B1DB3000588BA4 /* PBXContainerItemProxy */;
+		};
+		E922F31D21B1DB3100588BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E922F2FB21B1DB2C00588BA4 /* Unraid-Notifier */;
+			targetProxy = E922F31C21B1DB3100588BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E922F30321B1DB2C00588BA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E922F30421B1DB2C00588BA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E922F30821B1DB3000588BA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E922F30921B1DB3000588BA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E922F32221B1DB3100588BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E922F32321B1DB3100588BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E922F32521B1DB3100588BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77Q7ZR6438;
+				INFOPLIST_FILE = "Unraid-Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.tjezequel.Unraid-Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E922F32621B1DB3100588BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77Q7ZR6438;
+				INFOPLIST_FILE = "Unraid-Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.tjezequel.Unraid-Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E922F32821B1DB3100588BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77Q7ZR6438;
+				INFOPLIST_FILE = "Unraid-NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.tjezequel.Unraid-NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unraid-Notifier.app/Unraid-Notifier";
+			};
+			name = Debug;
+		};
+		E922F32921B1DB3100588BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77Q7ZR6438;
+				INFOPLIST_FILE = "Unraid-NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.tjezequel.Unraid-NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unraid-Notifier.app/Unraid-Notifier";
+			};
+			name = Release;
+		};
+		E922F32B21B1DB3100588BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77Q7ZR6438;
+				INFOPLIST_FILE = "Unraid-NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.tjezequel.Unraid-NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Unraid-Notifier";
+			};
+			name = Debug;
+		};
+		E922F32C21B1DB3100588BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77Q7ZR6438;
+				INFOPLIST_FILE = "Unraid-NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.tjezequel.Unraid-NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Unraid-Notifier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E922F2F721B1DB2B00588BA4 /* Build configuration list for PBXProject "Unraid-Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E922F32221B1DB3100588BA4 /* Debug */,
+				E922F32321B1DB3100588BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E922F32421B1DB3100588BA4 /* Build configuration list for PBXNativeTarget "Unraid-Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E922F32521B1DB3100588BA4 /* Debug */,
+				E922F32621B1DB3100588BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E922F32721B1DB3100588BA4 /* Build configuration list for PBXNativeTarget "Unraid-NotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E922F32821B1DB3100588BA4 /* Debug */,
+				E922F32921B1DB3100588BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E922F32A21B1DB3100588BA4 /* Build configuration list for PBXNativeTarget "Unraid-NotifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E922F32B21B1DB3100588BA4 /* Debug */,
+				E922F32C21B1DB3100588BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E922F2F421B1DB2B00588BA4 /* Project object */;
+}
