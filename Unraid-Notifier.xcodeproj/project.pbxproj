@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49384FA57F4AAE24FDA8D6F3 /* Pods_Unraid_Notifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC5453476FF2FE3E57247A9 /* Pods_Unraid_Notifier.framework */; };
+		77D32DE9C7802D47B61E5DCE /* Pods_Unraid_NotifierTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9D7C71BADB5A48772216D6 /* Pods_Unraid_NotifierTests.framework */; };
+		94681B5554585DC0561883B8 /* Pods_Unraid_NotifierUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA855585E69C34AE873C209 /* Pods_Unraid_NotifierUITests.framework */; };
+		E91F504A21B43E1E0020BC10 /* MovieEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F504921B43E1E0020BC10 /* MovieEvent.swift */; };
+		E91F504C21B43E240020BC10 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F504B21B43E240020BC10 /* Movie.swift */; };
+		E91F504E21B43E290020BC10 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F504D21B43E290020BC10 /* File.swift */; };
+		E91F505121B451730020BC10 /* APIMoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F505021B451730020BC10 /* APIMoviesService.swift */; };
+		E91F505321B4819E0020BC10 /* MovieEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F505221B4819E0020BC10 /* MovieEventCell.swift */; };
+		E91F505721B488650020BC10 /* APITMdbService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F505621B488650020BC10 /* APITMdbService.swift */; };
+		E91F505A21B48ABA0020BC10 /* TMDBImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F505921B48ABA0020BC10 /* TMDBImages.swift */; };
+		E91F505C21B48AE90020BC10 /* TMDBPoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F505B21B48AE90020BC10 /* TMDBPoster.swift */; };
+		E91F505F21B48D740020BC10 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F505E21B48D740020BC10 /* UIImage+Extensions.swift */; };
 		E922F30021B1DB2C00588BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922F2FF21B1DB2C00588BA4 /* AppDelegate.swift */; };
-		E922F30221B1DB2C00588BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922F30121B1DB2C00588BA4 /* ViewController.swift */; };
+		E922F30221B1DB2C00588BA4 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922F30121B1DB2C00588BA4 /* EventsViewController.swift */; };
 		E922F30521B1DB2C00588BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E922F30321B1DB2C00588BA4 /* Main.storyboard */; };
 		E922F30721B1DB3000588BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E922F30621B1DB3000588BA4 /* Assets.xcassets */; };
 		E922F30A21B1DB3000588BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E922F30821B1DB3000588BA4 /* LaunchScreen.storyboard */; };
 		E922F31521B1DB3100588BA4 /* Unraid_NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922F31421B1DB3100588BA4 /* Unraid_NotifierTests.swift */; };
 		E922F32021B1DB3100588BA4 /* Unraid_NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922F31F21B1DB3100588BA4 /* Unraid_NotifierUITests.swift */; };
+		E9B4853821B5DA5B0078ECEB /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B4853721B5DA5B0078ECEB /* TickView.swift */; };
+		E9B4853A21B5E0620078ECEB /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B4853921B5E0620078ECEB /* UIColor+Extensions.swift */; };
+		E9B4853C21B5E0F20078ECEB /* SymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B4853B21B5E0F20078ECEB /* SymbolView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02037F459A2E8F106CFE8DE6 /* Pods-Unraid-Notifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unraid-Notifier.debug.xcconfig"; path = "Target Support Files/Pods-Unraid-Notifier/Pods-Unraid-Notifier.debug.xcconfig"; sourceTree = "<group>"; };
+		1F216C1CA6BD8F8E10E19022 /* Pods-Unraid-NotifierTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unraid-NotifierTests.release.xcconfig"; path = "Target Support Files/Pods-Unraid-NotifierTests/Pods-Unraid-NotifierTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CC5453476FF2FE3E57247A9 /* Pods_Unraid_Notifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unraid_Notifier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA855585E69C34AE873C209 /* Pods_Unraid_NotifierUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unraid_NotifierUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AAE8AA98BE607DA10966C7 /* Pods-Unraid-NotifierUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unraid-NotifierUITests.release.xcconfig"; path = "Target Support Files/Pods-Unraid-NotifierUITests/Pods-Unraid-NotifierUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A6D11197672209A652A97F1 /* Pods-Unraid-Notifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unraid-Notifier.release.xcconfig"; path = "Target Support Files/Pods-Unraid-Notifier/Pods-Unraid-Notifier.release.xcconfig"; sourceTree = "<group>"; };
+		BD9D7C71BADB5A48772216D6 /* Pods_Unraid_NotifierTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unraid_NotifierTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91F504921B43E1E0020BC10 /* MovieEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEvent.swift; sourceTree = "<group>"; };
+		E91F504B21B43E240020BC10 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		E91F504D21B43E290020BC10 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		E91F505021B451730020BC10 /* APIMoviesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMoviesService.swift; sourceTree = "<group>"; };
+		E91F505221B4819E0020BC10 /* MovieEventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEventCell.swift; sourceTree = "<group>"; };
+		E91F505621B488650020BC10 /* APITMdbService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITMdbService.swift; sourceTree = "<group>"; };
+		E91F505921B48ABA0020BC10 /* TMDBImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBImages.swift; sourceTree = "<group>"; };
+		E91F505B21B48AE90020BC10 /* TMDBPoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBPoster.swift; sourceTree = "<group>"; };
+		E91F505E21B48D740020BC10 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		E922F2FC21B1DB2C00588BA4 /* Unraid-Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unraid-Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E922F2FF21B1DB2C00588BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E922F30121B1DB2C00588BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E922F30121B1DB2C00588BA4 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		E922F30421B1DB2C00588BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E922F30621B1DB3000588BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E922F30921B1DB3000588BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +78,12 @@
 		E922F31B21B1DB3100588BA4 /* Unraid-NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unraid-NotifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E922F31F21B1DB3100588BA4 /* Unraid_NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unraid_NotifierUITests.swift; sourceTree = "<group>"; };
 		E922F32121B1DB3100588BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E922F32D21B1DB4400588BA4 /* Unraid-Notifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Unraid-Notifier.entitlements"; sourceTree = "<group>"; };
+		E9B4853721B5DA5B0078ECEB /* TickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickView.swift; sourceTree = "<group>"; };
+		E9B4853921B5E0620078ECEB /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		E9B4853B21B5E0F20078ECEB /* SymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolView.swift; sourceTree = "<group>"; };
+		F882EF25210AE8004B3CD031 /* Pods-Unraid-NotifierTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unraid-NotifierTests.debug.xcconfig"; path = "Target Support Files/Pods-Unraid-NotifierTests/Pods-Unraid-NotifierTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF74356FE44CC4509B306E9E /* Pods-Unraid-NotifierUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unraid-NotifierUITests.debug.xcconfig"; path = "Target Support Files/Pods-Unraid-NotifierUITests/Pods-Unraid-NotifierUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49384FA57F4AAE24FDA8D6F3 /* Pods_Unraid_Notifier.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D32DE9C7802D47B61E5DCE /* Pods_Unraid_NotifierTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +107,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94681B5554585DC0561883B8 /* Pods_Unraid_NotifierUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D8EF2108D97FF4AF8DBB10B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02037F459A2E8F106CFE8DE6 /* Pods-Unraid-Notifier.debug.xcconfig */,
+				8A6D11197672209A652A97F1 /* Pods-Unraid-Notifier.release.xcconfig */,
+				F882EF25210AE8004B3CD031 /* Pods-Unraid-NotifierTests.debug.xcconfig */,
+				1F216C1CA6BD8F8E10E19022 /* Pods-Unraid-NotifierTests.release.xcconfig */,
+				FF74356FE44CC4509B306E9E /* Pods-Unraid-NotifierUITests.debug.xcconfig */,
+				80AAE8AA98BE607DA10966C7 /* Pods-Unraid-NotifierUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B783701A5F61A36BE76A2C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CC5453476FF2FE3E57247A9 /* Pods_Unraid_Notifier.framework */,
+				BD9D7C71BADB5A48772216D6 /* Pods_Unraid_NotifierTests.framework */,
+				6CA855585E69C34AE873C209 /* Pods_Unraid_NotifierUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E91F504821B43DC40020BC10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E91F505821B48AA60020BC10 /* TMDB */,
+				E91F504921B43E1E0020BC10 /* MovieEvent.swift */,
+				E91F504B21B43E240020BC10 /* Movie.swift */,
+				E91F504D21B43E290020BC10 /* File.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E91F504F21B44FE70020BC10 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E91F505021B451730020BC10 /* APIMoviesService.swift */,
+				E91F505621B488650020BC10 /* APITMdbService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E91F505421B481A20020BC10 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E9B4853621B5DA0F0078ECEB /* Symbols */,
+				E91F505521B481A70020BC10 /* Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E91F505521B481A70020BC10 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E91F505221B4819E0020BC10 /* MovieEventCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E91F505821B48AA60020BC10 /* TMDB */ = {
+			isa = PBXGroup;
+			children = (
+				E91F505921B48ABA0020BC10 /* TMDBImages.swift */,
+				E91F505B21B48AE90020BC10 /* TMDBPoster.swift */,
+			);
+			path = TMDB;
+			sourceTree = "<group>";
+		};
+		E91F505D21B48D600020BC10 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E91F505E21B48D740020BC10 /* UIImage+Extensions.swift */,
+				E9B4853921B5E0620078ECEB /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E922F2F321B1DB2B00588BA4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +199,8 @@
 				E922F31321B1DB3100588BA4 /* Unraid-NotifierTests */,
 				E922F31E21B1DB3100588BA4 /* Unraid-NotifierUITests */,
 				E922F2FD21B1DB2C00588BA4 /* Products */,
+				6D8EF2108D97FF4AF8DBB10B /* Pods */,
+				9B783701A5F61A36BE76A2C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +217,13 @@
 		E922F2FE21B1DB2C00588BA4 /* Unraid-Notifier */ = {
 			isa = PBXGroup;
 			children = (
+				E91F505D21B48D600020BC10 /* Extensions */,
+				E91F505421B481A20020BC10 /* UI */,
+				E91F504F21B44FE70020BC10 /* Services */,
+				E91F504821B43DC40020BC10 /* Model */,
+				E922F32D21B1DB4400588BA4 /* Unraid-Notifier.entitlements */,
 				E922F2FF21B1DB2C00588BA4 /* AppDelegate.swift */,
-				E922F30121B1DB2C00588BA4 /* ViewController.swift */,
+				E922F30121B1DB2C00588BA4 /* EventsViewController.swift */,
 				E922F30321B1DB2C00588BA4 /* Main.storyboard */,
 				E922F30621B1DB3000588BA4 /* Assets.xcassets */,
 				E922F30821B1DB3000588BA4 /* LaunchScreen.storyboard */,
@@ -125,6 +250,15 @@
 			path = "Unraid-NotifierUITests";
 			sourceTree = "<group>";
 		};
+		E9B4853621B5DA0F0078ECEB /* Symbols */ = {
+			isa = PBXGroup;
+			children = (
+				E9B4853721B5DA5B0078ECEB /* TickView.swift */,
+				E9B4853B21B5E0F20078ECEB /* SymbolView.swift */,
+			);
+			path = Symbols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E922F32421B1DB3100588BA4 /* Build configuration list for PBXNativeTarget "Unraid-Notifier" */;
 			buildPhases = (
+				980170CE92AF690A323B3AB1 /* [CP] Check Pods Manifest.lock */,
 				E922F2F821B1DB2C00588BA4 /* Sources */,
 				E922F2F921B1DB2C00588BA4 /* Frameworks */,
 				E922F2FA21B1DB2C00588BA4 /* Resources */,
+				2F515019382FA34BD831CA7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E922F32721B1DB3100588BA4 /* Build configuration list for PBXNativeTarget "Unraid-NotifierTests" */;
 			buildPhases = (
+				62B6C1FDD71A30786594713A /* [CP] Check Pods Manifest.lock */,
 				E922F30C21B1DB3000588BA4 /* Sources */,
 				E922F30D21B1DB3000588BA4 /* Frameworks */,
 				E922F30E21B1DB3000588BA4 /* Resources */,
@@ -167,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E922F32A21B1DB3100588BA4 /* Build configuration list for PBXNativeTarget "Unraid-NotifierUITests" */;
 			buildPhases = (
+				1F61A3E2C649C79B77721E4C /* [CP] Check Pods Manifest.lock */,
 				E922F31721B1DB3100588BA4 /* Sources */,
 				E922F31821B1DB3100588BA4 /* Frameworks */,
 				E922F31921B1DB3100588BA4 /* Resources */,
@@ -193,6 +331,14 @@
 				TargetAttributes = {
 					E922F2FB21B1DB2C00588BA4 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					E922F30F21B1DB3000588BA4 = {
 						CreatedOnToolsVersion = 10.1;
@@ -251,13 +397,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F61A3E2C649C79B77721E4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unraid-NotifierUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F515019382FA34BD831CA7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Unraid-Notifier/Pods-Unraid-Notifier-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Unraid-Notifier/Pods-Unraid-Notifier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B6C1FDD71A30786594713A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unraid-NotifierTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		980170CE92AF690A323B3AB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unraid-Notifier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E922F2F821B1DB2C00588BA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E922F30221B1DB2C00588BA4 /* ViewController.swift in Sources */,
+				E91F504E21B43E290020BC10 /* File.swift in Sources */,
+				E91F505C21B48AE90020BC10 /* TMDBPoster.swift in Sources */,
+				E91F505721B488650020BC10 /* APITMdbService.swift in Sources */,
+				E9B4853A21B5E0620078ECEB /* UIColor+Extensions.swift in Sources */,
+				E91F505A21B48ABA0020BC10 /* TMDBImages.swift in Sources */,
+				E91F505F21B48D740020BC10 /* UIImage+Extensions.swift in Sources */,
+				E9B4853C21B5E0F20078ECEB /* SymbolView.swift in Sources */,
+				E922F30221B1DB2C00588BA4 /* EventsViewController.swift in Sources */,
+				E91F505321B4819E0020BC10 /* MovieEventCell.swift in Sources */,
+				E91F504A21B43E1E0020BC10 /* MovieEvent.swift in Sources */,
+				E91F504C21B43E240020BC10 /* Movie.swift in Sources */,
 				E922F30021B1DB2C00588BA4 /* AppDelegate.swift in Sources */,
+				E91F505121B451730020BC10 /* APIMoviesService.swift in Sources */,
+				E9B4853821B5DA5B0078ECEB /* TickView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +616,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -418,7 +671,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -430,11 +683,14 @@
 		};
 		E922F32521B1DB3100588BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02037F459A2E8F106CFE8DE6 /* Pods-Unraid-Notifier.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Unraid-Notifier/Unraid-Notifier.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77Q7ZR6438;
 				INFOPLIST_FILE = "Unraid-Notifier/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +704,14 @@
 		};
 		E922F32621B1DB3100588BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6D11197672209A652A97F1 /* Pods-Unraid-Notifier.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Unraid-Notifier/Unraid-Notifier.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77Q7ZR6438;
 				INFOPLIST_FILE = "Unraid-Notifier/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +725,7 @@
 		};
 		E922F32821B1DB3100588BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F882EF25210AE8004B3CD031 /* Pods-Unraid-NotifierTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +747,7 @@
 		};
 		E922F32921B1DB3100588BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F216C1CA6BD8F8E10E19022 /* Pods-Unraid-NotifierTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +769,7 @@
 		};
 		E922F32B21B1DB3100588BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF74356FE44CC4509B306E9E /* Pods-Unraid-NotifierUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +790,7 @@
 		};
 		E922F32C21B1DB3100588BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80AAE8AA98BE607DA10966C7 /* Pods-Unraid-NotifierUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -8,15 +8,23 @@
 
 import Foundation
 
+enum MovieEventType: String {
+    case download = "Download"
+    case grab = "Grab"
+}
+
 class MovieEvent: Codable {
     let id: Int
     let eventType: String
     let fileID, movieID: Int
     let upgrade: Int?
-    let seen: Bool
+    let seen: Int
     let createdAt, updatedAt: String
     let file: File?
     let movie: Movie?
+    var enumEventType: MovieEventType {
+        return MovieEventType(rawValue: self.eventType) ?? .grab
+    }
 
     enum CodingKeys: String, CodingKey {
         case id
@@ -29,7 +37,7 @@ class MovieEvent: Codable {
         case file, movie
     }
 
-    init(id: Int, eventType: String, fileID: Int, movieID: Int, upgrade: Int?, seen: Bool, createdAt: String, updatedAt: String, file: File?, movie: Movie?) {
+    init(id: Int, eventType: String, fileID: Int, movieID: Int, upgrade: Int?, seen: Int, createdAt: String, updatedAt: String, file: File?, movie: Movie?) {
         self.id = id
         self.eventType = eventType
         self.fileID = fileID

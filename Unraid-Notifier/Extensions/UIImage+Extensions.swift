@@ -6,4 +6,10 @@
 //  Copyright © 2018 Thomas. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIImage {
+
+    
+
+}

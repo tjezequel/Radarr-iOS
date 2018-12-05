@@ -7,7 +7,25 @@
 		<key>Unraid-Notifier.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E922F2FB21B1DB2C00588BA4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E922F30F21B1DB3000588BA4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E922F31A21B1DB3100588BA4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -10,12 +10,10 @@ import Foundation
 
 class TMDBImage: Codable {
     let id: Int?
-    let backdrops: [JSONAny]?
-    let posters: [Poster]?
+    let posters: [TMDBPoster]?
 
-    init(id: Int?, backdrops: [JSONAny]?, posters: [Poster]?) {
+    init(id: Int?, posters: [TMDBPoster]?) {
         self.id = id
-        self.backdrops = backdrops
         self.posters = posters
     }
 }

@@ -6,4 +6,15 @@
 //  Copyright © 2018 Thomas. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIColor {
+
+    struct Theme {
+
+        static var orange = UIColor(red: 255.0/255.0, green: 136.0/255.0, blue: 46/255.0, alpha: 1.0)
+
+    }
+
+}
+
