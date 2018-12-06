@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.7.3)
+  - InAppSettingsKit (2.10)
   - PromiseKit (6.5.2):
     - PromiseKit/CorePromise (= 6.5.2)
     - PromiseKit/Foundation (= 6.5.2)
@@ -17,6 +18,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - InAppSettingsKit
   - PromiseKit (~> 6.0)
   - PromiseKit/Alamofire (~> 6.0)
   - PureLayout
@@ -25,16 +27,18 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - InAppSettingsKit
     - PromiseKit
     - PureLayout
     - PushNotifications
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  InAppSettingsKit: d965e29be941eb19857271e4625de3fba6e23c9f
   PromiseKit: 27c1601bfb73405871b805bcb8cf7e55c4dad3db
   PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
   PushNotifications: 8eee2fb66f3870025fe037883c88f5861f315bd0
 
-PODFILE CHECKSUM: ca7b0b1ce9019a1f90ef71672a0665c48eb0d43e
+PODFILE CHECKSUM: 4b26325a4d0169ebad6d2338b3537c4888fbc027
 
 COCOAPODS: 1.6.0.beta.2

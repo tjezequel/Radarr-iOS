@@ -29,6 +29,8 @@
 		E9B4853821B5DA5B0078ECEB /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B4853721B5DA5B0078ECEB /* TickView.swift */; };
 		E9B4853A21B5E0620078ECEB /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B4853921B5E0620078ECEB /* UIColor+Extensions.swift */; };
 		E9B4853C21B5E0F20078ECEB /* SymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B4853B21B5E0F20078ECEB /* SymbolView.swift */; };
+		E9F006F321B9C63C00179355 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9F006F221B9C63B00179355 /* Settings.bundle */; };
+		E9F006F521B9C73800179355 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F006F421B9C73800179355 /* SettingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		E9B4853721B5DA5B0078ECEB /* TickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickView.swift; sourceTree = "<group>"; };
 		E9B4853921B5E0620078ECEB /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		E9B4853B21B5E0F20078ECEB /* SymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolView.swift; sourceTree = "<group>"; };
+		E9F006F221B9C63B00179355 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		E9F006F421B9C73800179355 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		F882EF25210AE8004B3CD031 /* Pods-Unraid-NotifierTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unraid-NotifierTests.debug.xcconfig"; path = "Target Support Files/Pods-Unraid-NotifierTests/Pods-Unraid-NotifierTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF74356FE44CC4509B306E9E /* Pods-Unraid-NotifierUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unraid-NotifierUITests.debug.xcconfig"; path = "Target Support Files/Pods-Unraid-NotifierUITests/Pods-Unraid-NotifierUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -227,7 +231,9 @@
 				E922F30321B1DB2C00588BA4 /* Main.storyboard */,
 				E922F30621B1DB3000588BA4 /* Assets.xcassets */,
 				E922F30821B1DB3000588BA4 /* LaunchScreen.storyboard */,
+				E9F006F221B9C63B00179355 /* Settings.bundle */,
 				E922F30B21B1DB3000588BA4 /* Info.plist */,
+				E9F006F421B9C73800179355 /* SettingsTableViewController.swift */,
 			);
 			path = "Unraid-Notifier";
 			sourceTree = "<group>";
@@ -375,6 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F006F321B9C63C00179355 /* Settings.bundle in Resources */,
 				E922F30A21B1DB3000588BA4 /* LaunchScreen.storyboard in Resources */,
 				E922F30721B1DB3000588BA4 /* Assets.xcassets in Resources */,
 				E922F30521B1DB2C00588BA4 /* Main.storyboard in Resources */,
@@ -430,6 +437,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Unraid-Notifier/Pods-Unraid-Notifier-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/InAppSettingsKit/InAppSettingsKit.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/PushNotifications/PushNotifications.framework",
@@ -439,6 +447,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InAppSettingsKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PushNotifications.framework",
@@ -510,6 +519,7 @@
 				E91F505321B4819E0020BC10 /* MovieEventCell.swift in Sources */,
 				E91F504A21B43E1E0020BC10 /* MovieEvent.swift in Sources */,
 				E91F504C21B43E240020BC10 /* Movie.swift in Sources */,
+				E9F006F521B9C73800179355 /* SettingsTableViewController.swift in Sources */,
 				E922F30021B1DB2C00588BA4 /* AppDelegate.swift in Sources */,
 				E91F505121B451730020BC10 /* APIMoviesService.swift in Sources */,
 				E9B4853821B5DA5B0078ECEB /* TickView.swift in Sources */,
