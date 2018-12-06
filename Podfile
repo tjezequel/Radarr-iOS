@@ -10,6 +10,7 @@ target 'Unraid-Notifier' do
   pod 'PromiseKit', '~> 6.0'
   pod 'PromiseKit/Alamofire', '~> 6.0'
   pod 'PureLayout'
+  pod 'PushNotifications'
   target 'Unraid-NotifierTests' do
     inherit! :search_paths
     # Pods for testing

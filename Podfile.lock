@@ -13,24 +13,28 @@ PODS:
   - PromiseKit/UIKit (6.5.2):
     - PromiseKit/CorePromise
   - PureLayout (3.1.2)
+  - PushNotifications (1.1.0)
 
 DEPENDENCIES:
   - Alamofire
   - PromiseKit (~> 6.0)
   - PromiseKit/Alamofire (~> 6.0)
   - PureLayout
+  - PushNotifications
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - PromiseKit
     - PureLayout
+    - PushNotifications
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   PromiseKit: 27c1601bfb73405871b805bcb8cf7e55c4dad3db
   PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
+  PushNotifications: 8eee2fb66f3870025fe037883c88f5861f315bd0
 
-PODFILE CHECKSUM: 4e0c09523444de2447a93092101fea942977c1b3
+PODFILE CHECKSUM: ca7b0b1ce9019a1f90ef71672a0665c48eb0d43e
 
 COCOAPODS: 1.6.0.beta.2

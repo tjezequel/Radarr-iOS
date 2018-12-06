@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import UserNotifications
+import PushNotifications
 import Alamofire
 import PureLayout
 
@@ -18,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        self.pushNotifications.start(instanceId: "f4eb730c-fdcb-4bd3-b889-166285087272")
+        self.pushNotifications.registerForRemoteNotifications()
+        try? self.pushNotifications.subscribe(interest: "hello")
         return true
     }
 
@@ -42,23 +45,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-    
-    func application(_ application: UIApplication,
-                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        let tokenParts = deviceToken.map { data -> String in
-            return String(format: "%02.2hhx", data)
-        }
-        
-        let token = tokenParts.joined()
-        Alamofire.request("https://unraid-notifier.herokuapp.com/api/register/token", method: .post, parameters: ["token":token], encoding: JSONEncoding.default, headers: nil).validate().response { (response) in
-            print("registered token")
-        }
-        print("Device Token: \(token)")
+
+    let pushNotifications = PushNotifications.shared
+
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        self.pushNotifications.registerDeviceToken(deviceToken)
     }
-    
-    func application(_ application: UIApplication,
-                     didFailToRegisterForRemoteNotificationsWithError error: Error) {
-        print("Failed to register: \(error)")
+
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        self.pushNotifications.handleNotification(userInfo: userInfo)
     }
 
 }
