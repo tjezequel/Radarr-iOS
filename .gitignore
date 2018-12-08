@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/xcode,swift,cocoapods,macos
-# Edit at https://www.gitignore.io/?templates=xcode,swift,cocoapods,macos
+# Created by https://www.gitignore.io/api/macos,xcode,swift,cocoapods
+# Edit at https://www.gitignore.io/?templates=macos,xcode,swift,cocoapods
 
 ### CocoaPods ###
 ## CocoaPods GitIgnore Template
@@ -137,4 +137,4 @@ iOSInjectionProject/
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.gitignore.io/api/xcode,swift,cocoapods,macos
+# End of https://www.gitignore.io/api/macos,xcode,swift,cocoapods
